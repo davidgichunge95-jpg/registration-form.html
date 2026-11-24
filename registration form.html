@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+</head>
+<body>
+   <div>
+    <form>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname" required><br><br>
+
+     <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname" required><br><br>
+
+    <label for="admNo">Admission Number</label>
+    <input type="text" id="admNo" name="admNo" readonly><br><br>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="class">Class</label>
+    <select id="class" name="class">
+
+        <option value="">select class</option>
+        <option value="Grade 7">Grade 7</option>
+        <option value="Grade 8">Grade 8</option>
+        <option value="Grade 9">Grade 9</option>
+    </select><br><br>
+    
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="Male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="Female"><br><br>
+     
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label>Favourite Sports</label><br><br>
+
+    <label for="football">Football</label>
+    <input type="checkbox" id="football" name="sports" disabled><br><br>
+
+    <label for="volleyball">Volleyball</label>
+    <input type="checkbox" id="volleyball" name="sports"><br><br>
+
+    <label for="netball">Netball</label>
+    <input type="checkbox" id="netball" name="sports"><br><br>
+
+    <label for="basketball">Basketball</label>
+    <input type="checkbox" id="basketball" name="sports"><br><br>
+
+    <label for="photo">Upload Passport Photo</label>
+    <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear Form">
+
+</form>
+   </div> 
+</body>
+</html>
